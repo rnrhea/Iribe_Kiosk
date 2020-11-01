@@ -8,6 +8,70 @@
             box-sizing: border-box;
         }
 
+		p {
+            margin: 5px
+        }
+
+        h1 {
+            margin: 5px
+        }
+
+        h3 {
+            margin: 5px
+        }
+
+        input {
+            margin: 0
+        }
+
+		/* --------- THICK SCROLL BAR SECTION -------- */
+		::-webkit-scrollbar {
+            width: 30px;
+            border: 5px solid white;
+
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #a7a7a7;
+            background-clip: padding-box;
+            border: 0.05em solid #eeeeee;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #ebebeb;
+        }
+
+        /* Buttons */
+        ::-webkit-scrollbar-button:single-button {
+            background-color: #ebebeb;
+            display: block;
+            border-style: solid;
+            height: 13px;
+            width: 30px;
+        }
+
+        /* Up */
+        ::-webkit-scrollbar-button:single-button:vertical:decrement {
+            border-width: 0 15px 15px 15px;
+            border-color: transparent transparent #555555 transparent;
+        }
+
+        ::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+            border-color: transparent transparent #777777 transparent;
+        }
+
+        /* Down */
+        ::-webkit-scrollbar-button:single-button:vertical:increment {
+            border-width: 15px 15px 0px 15px;
+            border-color: #555555 transparent transparent transparent;
+        }
+
+        ::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+            border-color: #777777 transparent transparent transparent;
+        }
+
+		/* --------- END THICK SCROLL BAR SECTION -------- */
+
         #myInput {
             background-image: url('images/search.png');
             background-position: 10px 12px;
@@ -141,7 +205,7 @@
 
         .buildingTable {
             overflow-y: scroll;
-            height: 250px;
+            height: 187px;
             display: block;
         }
     </style>
@@ -164,7 +228,7 @@
                 <div id="campusMap">
                     <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" width=700 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_1" width=550 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 806.4 612.7" style="enable-background:new 0 0 806.4 612.7;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
@@ -42143,7 +42207,10 @@
 
                 </div>
             </td>
-            <td class="dispCol3"></td>
+            <td class="dispCol3">
+				<button id="zoomIn" class="floorButton">+</button>
+                <button id="zoomOut" class="floorButton">-</button>
+			</td>
         </tr>
     </table>
     <input type="text" id="myInput" onkeyup="buildingSearch()"
@@ -42152,23 +42219,23 @@
     <table>
         <tr>
             <td class="d1">
-                <h2>Building Name</h2>
+                <h3>Building Name</h2>
             </td>
 
             <td class="d2">
-                <h2>
+                <h3>
                     Abbreviation
-                </h2>
+                </h3>
             </td>
 
             <td class="d2">
-                <h2>
+                <h3>
                     Address
-                </h2>
+                </h3>
             </td>
 
             <td class="d3">
-                <h2>Departments</h2>
+                <h3>Departments</h3>
             </td>
         </tr>
     </table>
@@ -42257,7 +42324,7 @@
         "address": "8169 Paint Branch Dr",
         "description": "Classrooms, a lecture hall, and a secret laboratory on the top floor.",
         "buildingImg": "csic.jpg",
-        "departments": "Computer Science"
+        "departments": "CS"
     },
     "Health Center": {
         "abbreviation": "HC",
@@ -42320,7 +42387,7 @@
         "address": "8223 Paint Branch Dr",
         "description": "The half-abandoned former home of the CS Department.",
         "buildingImg": "",
-        "departments": "Computer Science, Computer Engineering, Electrical Engineering"
+        "departments": "CS, CE, EE"
     },
     "University House": {
         "abbreviation": "UH",
@@ -42649,7 +42716,7 @@
         "address": "",
         "description": "Very fancy building, very bright",
         "buildingImg": "esj.jpg",
-        "departments": "Chemistry, Computer Science"
+        "departments": "Chemistry, CS"
     },
     "Biomolecular Sciences": {
         "abbreviation": "BS",
@@ -43125,7 +43192,7 @@
         "address": "8125 Paint Branch Dr",
         "description": "You are here!",
         "buildingImg": "iribe_center.jpg",
-        "departments": "Computer Science, Computer Engineering"
+        "departments": "CS, CE"
     }
 }`);
 
@@ -43206,7 +43273,7 @@
             let buildingNameEle = document.createElement("p");
             let buildingNameTitle = document.createTextNode(buildingName);
             buildingNameEle.appendChild(buildingNameTitle);
-            buildingNameEle.style = "font-size:200%";
+            buildingNameEle.style = "font-size:160%";
             newBuildingInfo.appendChild(buildingNameEle);
 
             // See if we have data for the room
@@ -43227,7 +43294,7 @@
                 let abbreviation = document.createElement("p");
                 let abbreviationText = document.createTextNode(buildings[buildingName].abbreviation);
                 abbreviation.appendChild(abbreviationText);
-                abbreviation.style = "font-size:150%";
+                abbreviation.style = "font-size:140%";
                 newBuildingInfo.appendChild(abbreviation);
                 // courses (if applicable)
                 if (buildings[buildingName].departments !== "") {
@@ -43240,7 +43307,7 @@
                 // description
                 let description = document.createElement("p");
                 let descriptionText = document.createTextNode(buildings[buildingName].description);
-                description.style = "font-size:120%"
+                description.style = "font-size:110%"
                 description.appendChild(descriptionText);
                 newBuildingInfo.appendChild(description);
                 // image (if applicable)
@@ -43248,7 +43315,7 @@
                     let buildingImg = document.createElement("img");
                     buildingImg.src = "./images/building_imgs/" + buildings[buildingName].buildingImg;
                     buildingImg.alt = buildingName;
-                    buildingImg.style = "max-height:370px; max-width:400px;"
+                    buildingImg.style = "max-height:220px; max-width:220px;"
                     newBuildingInfo.appendChild(buildingImg);
                 }
             }
@@ -43256,40 +43323,7 @@
             // append new room info to the room info holder
             buildingInfoHolder.appendChild(newBuildingInfo);
 
-
-            // switch Iribe maps, if necessary
-            switchFloors(buildingName[0], false);
-
-        }
-
-        // This function changed which floorplan of Iribe is being displayed
-        function switchFloors(floorNum, removeInfo) {
-            if (color != '') {
-                document.getElementById(color).style = button_style;
-            }
-
-            color = floorNum;
-
-            document.getElementById(floorNum).style.backgroundColor = "#F8A1A1";
-
-            if (removeInfo) {
-                let oldBuildingInfo = document.getElementById("buildingInfo");
-                if (oldBuildingInfo != null)
-                    buildingInfoHolder.removeChild(oldBuildingInfo);
-            }
-            let newFloor = document.getElementById("floor" + floorNum);
-            if (newFloor.style.display === "none") {
-                // deactivate all other floors
-                for (let i = 0; i < 6; i++) {
-                    let fl = document.getElementById("floor" + i);
-                    if (fl !== null) {
-                        fl.style.display = "none";
-                    }
-                }
-                // activate the new floor
-                newFloor.style.display = "block";
-            }
-        }
+		}
 
     </script>
 

@@ -6,7 +6,8 @@ Lines = file1.readlines()
 
 html_1 = '<li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">'
 #then name
-html_2 = '</td> <td class="d3"> <button onclick="selectOffice(5156)" style="font-size: 35px;">'  
+html_2 = '</td> <td class="d3"> <button onclick="selectOffice('
+html_2b = ')" style="font-size: 35px;">'  
 #then room num
 html_3 = '</button> </td> </tr> </table> </a> </li>'
 
@@ -14,7 +15,7 @@ for line in Lines:
     m = re.search('(.*) is in IRB (\d\d\d\d).', line)
     name = m.group(1).split()
     room = m.group(2)
-    html = html_1 + name[-1] + ", " + " ".join(name[0:-1]) + html_2 + room + html_3
+    html = html_1 + name[-1] + ", " + " ".join(name[0:-1]) + html_2 + room + html_2b + room + html_3
     print(html)
 
 

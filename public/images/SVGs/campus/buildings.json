@@ -1,0 +1,954 @@
+{
+    "Maryland Football Stadium": {
+        "abbreviation": "MFS",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Softball Stadium": {
+        "abbreviation": "SS",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Shipley Field": {
+        "abbreviation": "SF",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "La Plata Beach": {
+        "abbreviation": "LPB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Ludwig Field": {
+        "abbreviation": "LF",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Varsity Practice Field": {
+        "abbreviation": "VPF",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Field Hockey and Lacrosse Complex": {
+        "abbreviation": "FHL",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Kehoe Track": {
+        "abbreviation": "KT",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Fraternity Row": {
+        "abbreviation": "FR",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "University of Maryland Global Campus": {
+        "abbreviation": "UMG",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "CSIC": {
+        "abbreviation": "CSI",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Health Center": {
+        "abbreviation": "HC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Toll Physics Building": {
+        "abbreviation": "TPB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Tyser Tower": {
+        "abbreviation": "TT",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Annapolis Hall": {
+        "abbreviation": "AH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Terrapin Trail Garage": {
+        "abbreviation": "TTG",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Denton": {
+        "abbreviation": "D",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Eppley Recreation Center": {
+        "abbreviation": "ERC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Cambridge Community Center": {
+        "abbreviation": "CCC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "A.V. Williams": {
+        "abbreviation": "AVW",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "University House": {
+        "abbreviation": "UH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Wind Tunnel": {
+        "abbreviation": "WT",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Worcester Hall": {
+        "abbreviation": "WH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Architecture Building": {
+        "abbreviation": "AB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "South Campus Commons": {
+        "abbreviation": "SCC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Bel Air Hall": {
+        "abbreviation": "BAH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Mowatt Lane Garage": {
+        "abbreviation": "MLG",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Union Lane Garage": {
+        "abbreviation": "ULG",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Golf Course Club House": {
+        "abbreviation": "GCC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Energy Plant": {
+        "abbreviation": "EP",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Tydings Hall": {
+        "abbreviation": "TH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Prince Frederick Hall": {
+        "abbreviation": "PFH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Clarice Smith Performing Arts Center": {
+        "abbreviation": "CSP",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Kirwan Hall": {
+        "abbreviation": "KH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Oakland Hall": {
+        "abbreviation": "OH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Shoemaker Hall": {
+        "abbreviation": "SH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Stamp Student Union": {
+        "abbreviation": "SSU",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Van Munching Hall": {
+        "abbreviation": "VMH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Reckord Armory": {
+        "abbreviation": "RA",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Administration Building": {
+        "abbreviation": "AB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Bioscience Research Building": {
+        "abbreviation": "BRB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Carroll Hall": {
+        "abbreviation": "CH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Knight Hall": {
+        "abbreviation": "KH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "South Campus Dining Hall": {
+        "abbreviation": "SCD",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Ellicott": {
+        "abbreviation": "E",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Cypress Building": {
+        "abbreviation": "CB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Charles Hall": {
+        "abbreviation": "CH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Pocomoke Building": {
+        "abbreviation": "PB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "St. Mary's Hall": {
+        "abbreviation": "SMH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Regents Drive Garage": {
+        "abbreviation": "RDG",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Frederick Hall": {
+        "abbreviation": "FH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Engineering Laboratory": {
+        "abbreviation": "EL",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Physical Sciences Complex": {
+        "abbreviation": "PSC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Tawes": {
+        "abbreviation": "T",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Memorial Chapel": {
+        "abbreviation": "MC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "McKeldin Library": {
+        "abbreviation": "MKL",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Morrill Hall": {
+        "abbreviation": "MH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Taliaferro": {
+        "abbreviation": "T",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Hornbake Library": {
+        "abbreviation": "HL",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "251 North": {
+        "abbreviation": "N",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Francis Scott Key": {
+        "abbreviation": "FSK",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "A. James Clark Hall": {
+        "abbreviation": "AJC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Symons Hall": {
+        "abbreviation": "SH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "H.J. Patterson": {
+        "abbreviation": "HJP",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Marriott Hotel and Conference Center": {
+        "abbreviation": "MHC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Wicomico Hall": {
+        "abbreviation": "WH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Edward St. John Learning and Teaching Center": {
+        "abbreviation": "ESJ",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Biomolecular Sciences": {
+        "abbreviation": "BS",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Shuttle Bus Building": {
+        "abbreviation": "SBB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Nyumburu Cultural Center": {
+        "abbreviation": "NCC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Calvert Hall": {
+        "abbreviation": "CH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Ritchie Coliseum": {
+        "abbreviation": "RC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Woods Hall": {
+        "abbreviation": "WH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Cole Student Activities Building": {
+        "abbreviation": "CSA",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Seneca Building": {
+        "abbreviation": "SB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "La Plata": {
+        "abbreviation": "LP",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Marie Mount Hall": {
+        "abbreviation": "MMH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Mitchell Art-Sociology Building": {
+        "abbreviation": "MAS",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Patuxent Building": {
+        "abbreviation": "PB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Caroline Hall": {
+        "abbreviation": "CH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Research Greenhouse": {
+        "abbreviation": "RG",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Chincoteague Hall": {
+        "abbreviation": "CH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Harford Hall": {
+        "abbreviation": "HH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Rossborough Inn": {
+        "abbreviation": "RI",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Cecil Hall": {
+        "abbreviation": "CH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Chestertown Hall": {
+        "abbreviation": "CH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Glenn L. Martin": {
+        "abbreviation": "GLM",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Easton Hall": {
+        "abbreviation": "EH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "School of Public Health": {
+        "abbreviation": "SPH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Microbiology Building": {
+        "abbreviation": "MB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Center for Young Children": {
+        "abbreviation": "CYC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Stadium Drive Garage": {
+        "abbreviation": "SDG",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Xfinity Center": {
+        "abbreviation": "XC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Ellicot Area Dining": {
+        "abbreviation": "EAD",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Artemesia Building": {
+        "abbreviation": "AB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Service Building": {
+        "abbreviation": "SB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Cambridge Hall": {
+        "abbreviation": "CH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Gossett Football Team House": {
+        "abbreviation": "GFT",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Lee Building": {
+        "abbreviation": "LB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Lefrak Hall": {
+        "abbreviation": "LH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Montgomery Hall": {
+        "abbreviation": "MH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Clarence M. Mitchell, Jr. Building": {
+        "abbreviation": "CMM",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Somerset Hall": {
+        "abbreviation": "SH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Atlantic Building": {
+        "abbreviation": "AB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Preinkert Hall": {
+        "abbreviation": "PH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Baltimore Hall": {
+        "abbreviation": "BH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Skinner Building": {
+        "abbreviation": "SB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Queen Anne's Hall": {
+        "abbreviation": "QAH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Visitor Center": {
+        "abbreviation": "VC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Dorchester Hall": {
+        "abbreviation": "DH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Chesapeake Building": {
+        "abbreviation": "CB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Animal Sciences / Agricultural Engineering": {
+        "abbreviation": "ASA",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Wye Oak": {
+        "abbreviation": "WO",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Boat House": {
+        "abbreviation": "BH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Benjamin Hall": {
+        "abbreviation": "BH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "College Park Fire Station": {
+        "abbreviation": "CPF",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "J.M. Patterson": {
+        "abbreviation": "JMP",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Biology-Psychology Building": {
+        "abbreviation": "BPB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Energy Research Building": {
+        "abbreviation": "ERB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Riggs Alumni Center": {
+        "abbreviation": "RAC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Allegany Hall": {
+        "abbreviation": "AH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Chemistry Building": {
+        "abbreviation": "CB",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Centerville Hall": {
+        "abbreviation": "CH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Anne Arundel Hall": {
+        "abbreviation": "AAH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Hagerstown Hall": {
+        "abbreviation": "HH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Aquatic Center": {
+        "abbreviation": "AC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Susquehanna Hall": {
+        "abbreviation": "SH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Cumberland Hall": {
+        "abbreviation": "CH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Elkton Hall": {
+        "abbreviation": "EH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Chemical and Nuclear Engineering": {
+        "abbreviation": "CNE",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "The Enclave": {
+        "abbreviation": "TE",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "The Hotel": {
+        "abbreviation": "TH",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "University View": {
+        "abbreviation": "UV",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "The Varsity": {
+        "abbreviation": "TV",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Brendan Iribe Center for Computer Science and Engineering": {
+        "abbreviation": "BIC",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    },
+    "Computer Science Instructional Center": {
+        "abbreviation": "CSI",
+        "address": "",
+        "description": "",
+        "buildingImg": "",
+        "departments": ""
+    }
+}

@@ -43263,20 +43263,20 @@
             if (oldBuildingInfo != null)
                 buildingInfoHolder.removeChild(oldBuildingInfo);
 
-            // create new room info
+            // create new building info
             let newBuildingInfo = document.createElement("div");
             newBuildingInfo.id = "buildingInfo";
             newBuildingInfo.style = "max-width: 500px; margin-left:auto; margin-right:auto";
 
-            // contents of room info
-            // room number
+            // contents of building info
+            // building name
             let buildingNameEle = document.createElement("p");
             let buildingNameTitle = document.createTextNode(buildingName);
             buildingNameEle.appendChild(buildingNameTitle);
             buildingNameEle.style = "font-size:160%";
             newBuildingInfo.appendChild(buildingNameEle);
 
-            // See if we have data for the room
+            // See if we have data for the building
             if (buildings[buildingName] === undefined) {
                 let noInfo = document.createElement("p");
                 let noInfoText = document.createTextNode("Sorry, no data for this room is available.");
@@ -43290,13 +43290,21 @@
                 newBuildingInfo.appendChild(description);
             }
             else {
-                // common name
+                // abbreviation
                 let abbreviation = document.createElement("p");
                 let abbreviationText = document.createTextNode(buildings[buildingName].abbreviation);
                 abbreviation.appendChild(abbreviationText);
                 abbreviation.style = "font-size:140%";
                 newBuildingInfo.appendChild(abbreviation);
-                // courses (if applicable)
+				// address (if applicable)
+                if (buildings[buildingName].addresss !== "") {
+                    let address = document.createElement("p");
+                    let addressText = document.createTextNode(buildings[buildingName].address);
+                    address.appendChild(addressText);
+                    address.style = "font-size:100%";
+                    newBuildingInfo.appendChild(address);
+                }
+                // departments (if applicable)
                 if (buildings[buildingName].departments !== "") {
                     let departments = document.createElement("p");
                     let departmentsText = document.createTextNode("Departments: " + buildings[buildingName].departments);

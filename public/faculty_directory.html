@@ -283,7 +283,7 @@
 
     </div>
     <br>
-    <button class="block" style="color:Black" onclick="cancel();">Cancel</button>
+    <button class="block" style="color:Black" onclick="cancel();">Reset</button>
 
 
     <!-- <table>
@@ -538,7 +538,10 @@
         }
 
         function getLetter(_this, letter) {
-            var ul, li, a, i, txtValue;
+            if (letter == color) {
+                cancel();
+            } else{
+                var ul, li, a, i, txtValue;
             if (color != '') {
                 document.getElementById(color).style = button_style;
             }
@@ -561,6 +564,8 @@
                 }
             }
             ul.scrollTop = 0;
+            }
+            
         }
 
 

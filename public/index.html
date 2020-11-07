@@ -8,23 +8,32 @@
 			padding: 0;
 			font-family : Century Gothic;
 		}
+		a:link {
+ 		 text-decoration: none;
+			}
 		ul{
 			float : center;
 			list-style-type:none;
+			
 		}
 		ul li{
 			display: inline-block;
+			list-style-type: none;
+			
+			
 		}
 
 		ul li a{
 			text-decoration: none;
-			color:blue;
+			color:black;
 			padding : 5px 20px;
 			border:1px solid #fff;
+			list-style-type: none;
 		}
 		ul li a:hover{
 			 background: #fff;
 			 color: #000;
+			 list-style-type: none;
 		}
 
 		pic img{
@@ -47,6 +56,7 @@
 			cursor:pointer;
 			transition:0.6;
 			width:1100px;
+			
 		}
 		container:hover{
 			color: white;
@@ -57,12 +67,16 @@
 			height: 25px;
 			position: relative;
 			border: 2px solid black;
+			list-style-type: none;
+		
 		}
 		.blank-box{
 			padding: 10px 90px;
 			height: 10px;
 			position: relative;
 			border: 2px solid white;
+			list-style-type: none;
+			
 		}
 		.vertical-center{
 			margin: 0;
@@ -72,6 +86,7 @@
 			left: 40%;
 			-ms-transform: translateY(-50%);
 			transform: translateY(-50%);
+			list-style-type: none;
 		}
 		* {
 		box-sizing: border-box;
@@ -80,7 +95,8 @@
 		.column {
 		float: left;
 		width: 50%;
-		padding: 20px;
+		padding: 30px;
+		list-style-type: none;
 		}
 
 		/* Clearfix (clear floats) */
@@ -89,14 +105,31 @@
 		content: "";
 		clear: both;
 		display: table;
+		list-style-type: none;
+		
 		}
+		.row img{
+   		 text-align: justify;
+    	width: [width of img];
+		}	
+
+		.row img {
+    	display: block;
+    	margin: 0 auto;
+		}
+
+
+
 	</style>
+
 	</head>
 		<div class="blank-box">
 		</div>
 		<div class="btn-container">
 			<div class="vertical-center">
-				<li><a href="event_calendar.html" class = "btn">Events/News</a></li>
+				<li><a href="event_calendar.html"  class = "btn">
+					<p style = "color :black"> Events/News</p> 
+				</a></li>
 				
 			</div>
 		</div>
@@ -104,24 +137,39 @@
 		</div>
 		<div class="btn-container">
 			<div class="vertical-center">
-				<li><a href="faculty_directory.html" class = "btn"> Search Professor</a></li>
+				<li><a href="faculty_directory.html" class = "btn"> 
+					<p style = "color :black"> Search Professor</p> 
+				</a></li>
+				
 				
 			</div>
 		</div>
-
-		
+	
 
 		<div class="row">
 			<div class="column">
-				<li><a href="campus_map.html" class="btn"> UMD Map </a></li>
-			  	<img src="./images/umdmap.JPG" alt="iribe" style="width:100%">
+				<li><a href="campus_map.html">
+					<p style = "color :black"> UMD MAP</p> 
+					<img border="0" src="./images/umdmap.JPG" alt = "umdmap" style ="width: 100%">
+					<p style="color: black">
+						Address: 1113 Mitchell Building, College Park, MD 20742
+					</p>
+				</a></li>	
 			</div>
 			<div class="column">
-				<li><a href="iribe_map.html" class="btn"> Iribe Map </a></li>
-			  	<img src="./images/iribe.JPG" alt="iribemap" style="width:100%">
+				<li><a href="iribe_map.html"> 
+					<p style = "color :black"> IRIBE MAP</p> 
+					<img border="0" src="./images/iribe.JPG" alt = "iribemap" style ="width: 100%">
+					<p style="color : black">
+						Address:8125 Paint Branch Drive, College Park MD 20742
+						P: 301.405.2662
+					</p>
+				</a></li>
 			</div>
 		</div>
-
 		
 </html>
+
+
+
 

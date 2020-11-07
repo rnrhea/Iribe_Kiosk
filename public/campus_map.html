@@ -6,6 +6,7 @@
     <style>
         * {
             box-sizing: border-box;
+			font-family : Century Gothic;
         }
 
 		p {
@@ -156,7 +157,7 @@
 
         .btnimg {
             position: absolute;
-            left: 6px;
+            left: 2.5px;
             top: 50%;
             transform: translateY(-50%);
         }
@@ -208,17 +209,93 @@
             height: 187px;
             display: block;
         }
+		.top {
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+            left: 8px;
+            bottom: -15px;
+        }
+
+        .top2 {
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+            left: 65px;
+            bottom: -15px;
+        }
+
+        .top3 {
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+            left: 122px;
+            bottom: -15px;
+        }
+
+        .top4 {
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+            left: 179px;
+            bottom: -15px;
+        }
+		.shortcut {
+            position: relative;
+            padding: 20px 20px;
+            text-align: center;
+            background-color: #FFD520;
+            
+        }
+		body.noscroll{
+            position:fixed;
+            overflow:hidden;
+            background-image: url(images/UMDbar.jpg); 
+            background-position: top;
+            background-attachment: fixed; 
+            background-repeat: no-repeat;
+        }
     </style>
 </head>
 
-<body>
-    <button class="return" onclick="window.location.href = './index.html'" style="position:absolute">
+<body class="noscroll">
+    <!-- <button class="return" onclick="window.location.href = './index.html'" style="position:absolute">
         <img class="btnimg" src="images/return-icon.png" alt="" />
 
         Return to Welcome
     </button>
-    <h1 style="text-align:center">UMD Campus Map</h1>
+    <h1 style="text-align:center">UMD Campus Map</h1> -->
 
+	<div class ="top">
+        <button class="shortcut" onclick="window.location.href = './index.html'" style="position:absolute">
+            <img class="btnimg" src="images/home.png" alt="" />
+        </button>
+    </div>
+
+    <div class ="top2">
+        <button class="shortcut" onclick="window.location.href = './event_calendar.html'" style="position:absolute">
+            <img class="btnimg" src="images/calendar.png" alt="" />
+        </button>
+    </div>
+
+    <div class ="top3">
+        <button class="shortcut" onclick="window.location.href = './faculty_directory.html'" style="position:absolute">
+            <img class="btnimg" src="images/search_shortcut.png" alt="" />
+        </button>
+    </div>
+
+    <div class ="top4">
+        <button class="shortcut" onclick="window.location.href = './iribe_map.html'" style="position:absolute">
+            <img class="btnimg" src="images/floor.png" alt="" />
+        </button>
+    </div>
+    
+
+
+    <div>
+        <h1 style="text-align:center">UMD Campus Map</h1> 
+	</div>
+	
     <table>
         <tr>
             <td class="dispCol1">
@@ -42713,16 +42790,16 @@
     },
     "Edward St. John Learning and Teaching Center": {
         "abbreviation": "ESJ",
-        "address": "",
+        "address": "4131 Campus Dr",
         "description": "Very fancy building, very bright",
         "buildingImg": "esj.jpg",
         "departments": "Chemistry, CS"
     },
     "Biomolecular Sciences": {
         "abbreviation": "BS",
-        "address": "",
+        "address": "8314 Paint Branch Dr",
         "description": "Science for small things associated with life.",
-        "buildingImg": "",
+        "buildingImg": "biomolecular.jpg",
         "departments": "Biology, Chemistry"
     },
     "Shuttle Bus Building": {
@@ -43098,9 +43175,9 @@
     },
     "Chemistry Building": {
         "abbreviation": "CHM",
-        "address": "",
-        "description": "This building feels like a high school.",
-        "buildingImg": "",
+        "address": "8051 Regents Dr",
+        "description": "This building's interior feels like a high school.",
+        "buildingImg": "chem.jpg",
         "departments": "Chemistry"
     },
     "Centerville Hall": {
@@ -43154,7 +43231,7 @@
     },
     "Chemical and Nuclear Engineering": {
         "abbreviation": "CNE",
-        "address": "",
+        "address": "4418 Stadium Dr",
         "description": "Do you enjoy nuclear reactors? We got one.",
         "buildingImg": "chemnuke.jpg",
         "departments": "Engineering, Chemistry"

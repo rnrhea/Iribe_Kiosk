@@ -141,12 +141,56 @@
             text-align: center;
         }
 
+        .shortcut {
+            position: relative;
+            padding: 20px 20px;
+            text-align: center;
+            background-color: #FFD520;
+            
+        }
+
+        
         .btnimg {
             position: absolute;
-            left: 6px;
+            left: 2.5px;
             top: 50%;
             transform: translateY(-50%);
         }
+        
+
+        .top {
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+            left: 8px;
+            bottom: -15px;
+        }
+
+        .top2 {
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+            left: 65px;
+            bottom: -15px;
+        }
+
+        .top3 {
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+            left: 122px;
+            bottom: -15px;
+        }
+
+        .top4 {
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+            left: 179px;
+            bottom: -15px;
+        }
+
+        
 
         .cancel {
             display: block;
@@ -226,17 +270,59 @@
             height:380px;
             display:block;
         }
+        
+        body.noscroll{
+            position:fixed;
+            overflow:hidden;
+            background-image: url(images/UMDbar.jpg); 
+            background-position: top;
+            background-attachment: fixed; 
+            background-repeat: no-repeat;
+        }
+
+        #title{
+            text-align: center; 
+        }
     </style>
 </head>
 
-<body>
-    <button class="return" onclick="window.location.href = './index.html'" style="position:absolute">
+<body class="noscroll" >
+    <!-- <button class="return" onclick="window.location.href = './index.html'" style="position:absolute">
         <img class="btnimg" src="images/return-icon.png" alt="" />
 
         Return to Welcome
-    </button>
+    </button> -->
+    
+    <div class ="top">
+        <button class="shortcut" onclick="window.location.href = './index.html'" style="position:absolute">
+            <img class="btnimg" src="images/home.png" alt="" />
+        </button>
+    </div>
 
-    <h1 style=" text-align: center;">Faculty Directory</h1>
+    <div class ="top2">
+        <button class="shortcut" onclick="window.location.href = './event_calendar.html'" style="position:absolute">
+            <img class="btnimg" src="images/calendar.png" alt="" />
+        </button>
+    </div>
+
+    <div class ="top3">
+        <button class="shortcut" onclick="window.location.href = './campus_map.html'" style="position:absolute">
+            <img class="btnimg" src="images/UMDLocationMap.png" alt="" />
+        </button>
+    </div>
+
+    <div class ="top4">
+        <button class="shortcut" onclick="window.location.href = './iribe_map.html'" style="position:absolute">
+            <img class="btnimg" src="images/floor.png" alt="" />
+        </button>
+    </div>
+    
+
+
+    <div id="title">
+        <h1>Faculty Directory</h1>
+    </div>
+    
 
 
     <br>
@@ -283,7 +369,7 @@
 
     </div>
     <br>
-    <button class="block" style="color:Black" onclick="cancel();">Cancel</button>
+    <button class="block" style="color:Black" onclick="cancel();">Reset</button>
 
 
     <!-- <table>
@@ -538,7 +624,10 @@
         }
 
         function getLetter(_this, letter) {
-            var ul, li, a, i, txtValue;
+            if (letter == color) {
+                cancel();
+            } else{
+                var ul, li, a, i, txtValue;
             if (color != '') {
                 document.getElementById(color).style = button_style;
             }
@@ -548,7 +637,7 @@
             _this.style.backgroundColor = "#F8A1A1";
 
             ul = document.getElementById("myUL");
-            li = ul.getElementsByTagName("li");
+            li = ul.getElementsByTagName("li");           
             for (i = 0; i < li.length; i++) {
                 a = li[i].getElementsByTagName("a")[0];
                 txtValue = a.textContent || a.innerText;
@@ -557,10 +646,12 @@
                 if (txtValue[0] == letter) {
                     li[i].style.display = "";
                 } else {
-                    li[i].style.display = "none";
+                    li[i].style.display = "none";                   
                 }
             }
             ul.scrollTop = 0;
+            }
+            
         }
 
 

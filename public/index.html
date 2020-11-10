@@ -118,13 +118,27 @@
     	margin: 0 auto;
 		}
 
-
-
+		body.noscroll{
+            position:fixed;
+            overflow:hidden;
+            background-image: url(images/UMDbar.jpg); 
+            background-position: top;
+            background-attachment: fixed; 
+            background-repeat: no-repeat;
+        }
+		h1 {
+            margin: 18px
+        }
 	</style>
 
 	</head>
+	<body class="noscroll">
+		<div>
+			<h1 style="text-align:center; color:white">Welcome to the Iribe Center!</h1>
+		<!-- </div>
 		<div class="blank-box">
-		</div>
+		</div> -->
+		<br><br>
 		<div class="btn-container">
 			<div class="vertical-center">
 				<li><a href="event_calendar.html"  class = "btn">
@@ -167,7 +181,7 @@
 				</a></li>
 			</div>
 		</div>
-		
+	</body>		
 </html>
 
 

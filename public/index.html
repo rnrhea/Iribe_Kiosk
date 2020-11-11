@@ -66,6 +66,7 @@
 			padding: 20px 90px;
 			height: 25px;
 			position: relative;
+			background-color: rgba(255,255,255,0.4);
 			border: 2px solid black;
 			list-style-type: none;
 		
@@ -121,7 +122,7 @@
 		body.noscroll{
             position:fixed;
             overflow:hidden;
-            background-image: url(images/UMDbar.jpg); 
+            background-image: url(images/kiosk_iribe_background.jpg); 
             background-position: top;
             background-attachment: fixed; 
             background-repeat: no-repeat;
@@ -129,16 +130,27 @@
 		h1 {
             margin: 18px
         }
+		
 	</style>
 
 	</head>
 	<body class="noscroll">
+		<!--<div style="background-image: url(./images/iribe.JPG)">-->
 		<div>
 			<h1 style="text-align:center; color:white">Welcome to the Iribe Center!</h1>
 		<!-- </div>
 		<div class="blank-box">
 		</div> -->
-		<br><br>
+		<br>
+		<p style="color : black; text-align: center; font-size: large;">
+			8125 Paint Branch Drive
+			<br>
+			College Park MD 20742
+			<br>
+			P: 301.405.2662
+		</p>
+		<br>
+		
 		<div class="btn-container">
 			<div class="vertical-center">
 				<li><a href="event_calendar.html"  class = "btn">
@@ -159,26 +171,19 @@
 			</div>
 		</div>
 	
+	
 
 		<div class="row">
 			<div class="column">
-				<li><a href="campus_map.html">
-					<p style = "color :black"> UMD MAP</p> 
-					<img border="0" src="./images/umdmap.JPG" alt = "umdmap" style ="width: 100%">
-					<p style="color: black">
-						Address: 1113 Mitchell Building, College Park, MD 20742
-					</p>
+				<li style="background-color: rgba(255,255,255,0.5);"><a href="campus_map.html">
+					<p style = "color :black; font-size: larger;"> CAMPUS MAP</p> 
+					<img border="0" src="./images/campusMapCropped.jpg" alt = "umdmap" style ="width: 100%">
 				</a></li>	
 			</div>
 			<div class="column">
-				<li><a href="iribe_map.html"> 
-					<p style = "color :black"> IRIBE MAP</p> 
-					<img border="0" src="./images/iribe.JPG" alt = "iribemap" style ="width: 100%">
-					<p style="color : black">
-						Address: 8125 Paint Branch Drive, College Park MD 20742
-						<br>
-						P: 301.405.2662
-					</p>
+				<li style="background-color: rgba(255,255,255,0.5)"><a href="iribe_map.html"> 
+					<p style = "color :black; font-size: larger"> BUILDING MAP</p> 
+					<img border="0" src="./images/iribe_map_preview.png" alt = "iribemap" style ="width: 100%">
 				</a></li>
 			</div>
 		</div>

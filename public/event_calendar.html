@@ -192,12 +192,12 @@
             </div>
             <div class="col-md-5">
                 <table>
-                    <thead><h3 id="event_head"></h3></thead>
-                    <tbody id="event_body">
+                    <u><h3 id="event_head"></h3></u>
+                    <p id="event_body">
                         <!-- <tr><h5>PhD Defense: Learning With Minimal Supervision: New Meta-Learning and Reinforcement Learning Algorithms</h5>
                             <p>13:30 to 15:30 <br /> Amr Sharaf </p>
                         </tr> -->
-                    </tbody>
+                    </p>
                 </table>
             </div>
         </div>
@@ -247,11 +247,47 @@
 
             switch(today.getDate()){
                 case 5:
-                    eventList.innerHTML = "<tr><h5>PhD Defense: Learning With Minimal Supervision: New Meta-Learning and Reinforcement Learning Algorithms</h5><p>13:30 to 15:30 <br /> Amr Sharaf </p></tr>"
-                    + "";
+                    eventList.innerHTML = "<h6><b>Spring Registration Reminder: </b>Please speak to your advisor if you haven't for course registration! </h6>"+
+                    "<h6><b>Social Distancing Reminder: </b>Please stay 6 feet apart from each other</h6><br />"+
+                    "<h5><b>PhD Defense:</b> Learning With Minimal Supervision: New Meta-Learning and Reinforcement Learning Algorithms</h5>13:30 to 15:30 <br /> Amr Sharaf <br /><br />"
+                    + "<h5><b>PhD Defense:</b>  A Human-Centric Approach to Software Vulnerability Discovery</h5>14:00 to 16:00 <br /> Daniel Votipka <br />";
+                    break;
+                 case 9:
+                     eventList.innerHTML = "<h6><b>Spring Registration Reminder: </b>Please speak to your advisor if you haven't for course registration! </h6>"+
+                    "<h6><b>Social Distancing Reminder: </b>Please stay 6 feet apart from each other</h6><br />"+
+                    "<h5><b>PhD Defense:</b>On Scheduling and Communication Issues in Data Centers</h5>17:00 to 19:00 <br /> Sheng Yang <br /><br />";
+                     break;
+                 case 10:
+                     eventList.innerHTML = "<h6><b>Spring Registration Reminder: </b>Please speak to your advisor if you haven't for course registration! </h6>"+
+                    "<h6><b>Social Distancing Reminder: </b>Please stay 6 feet apart from each other</h6><br />"+
+                    "<h5><b>PhD Defense:</b>AUGMENTED REALITY SYSTEMS AND USER INTERACTION TECHNIQUES FOR STEM LEARNING</h5>11:00 to 13:00 <br /> Seokbin Kang <br /><br />";
+                     break;
+                 case 13:
+                     eventList.innerHTML = "<h6><b>Spring Registration Reminder: </b>Please speak to your advisor if you haven't for course registration! </h6>"+
+                    "<h6><b>Social Distancing Reminder: </b>Please stay 6 feet apart from each other</h6><br />"+
+                    "<h5><b>PhD Defense:</b>Cryptography for the Real World: from Designing and Launching an Anonymous Bitcoin Alternative to Making Encryption that Can Forget </h5>"+
+                     "11:00 to 12:00 <br /> Ian Miers <br /><br />"+
+                     "<h5><b>Education Committee Meeting</b></h5>15:00 to 16:30 <br /><br />";
+                     break;
+                 case 17:
+                    eventList.innerHTML = "<h6><b>Spring Registration Reminder: </b>Please speak to your advisor if you haven't for course registration! </h6>"+
+                    "<h6><b>Social Distancing Reminder: </b>Please stay 6 feet apart from each other</h6><br />"+
+                    "<h5><b>Scalable, Survivable, Global Database Architecture in CockroachDB</b></h5>12:30 to 13:30 <br /> Ben Darnell";
+                    break;
+                case 18:
+                    eventList.innerHTML = "<h6><b>Spring Registration Reminder: </b>Please speak to your advisor if you haven't for course registration! </h6>"+
+                    "<h6><b>Social Distancing Reminder: </b>Please stay 6 feet apart from each other</h6><br />"+
+                    "<h5><b>Corporate Events: </b>Capital One table in Iribe Lobby</h5> Come to ask any questions about internships and jobs at Capital One!";
+                    break;
+                case 19:
+                    eventList.innerHTML = "<h6><b>Spring Registration Reminder: </b>Please speak to your advisor if you haven't for course registration! </h6>"+
+                    "<h6><b>Social Distancing Reminder: </b>Please stay 6 feet apart from each other</h6><br />"+
+                    "<h5><b>Corporate Events: </b>Bloomberg table in Iribe Lobby</h5> Come to ask any questions about internships and jobs at Bloomberg!";
                     break;
                 default:
-                    eventList.innerHTML = "<tr><br /><br /><br /><br /><h5><b>Social Distancing Reminder: </b>Please stay 6 feet apart from each other</h5><br /></tr>";
+                    eventList.innerHTML = "<h6><b>Spring Registration Reminder: </b>Please speak to your advisor if you haven't for course registration! </h6>"+
+                    "<h6><b>Social Distancing Reminder: </b>Please stay 6 feet apart from each other</h6><br />"+
+                    "<h5> No events scheduled </h5>";
             }
 
         }

@@ -83,8 +83,9 @@
             background-repeat: no-repeat;
             font-family: "Century Gothic"
         }
-        h1 {
-            margin: 10px
+        h2 {
+            margin: 15px;
+            margin-left: 60px;
         }
     </style>
 </head>
@@ -129,7 +130,7 @@
 
 
     <div>
-        <h1 style="text-align:center; color:white">IRB News and Events</h1>
+        <h2 class="text-md-center" style="color:white">IRB News and Events</h2>
 	</div>
     <br /><br /><br />
     <div class="container">
@@ -191,11 +192,11 @@
             </div>
             <div class="col-md-5">
                 <table>
-                    <thead><h3 id="event_head">Events November 2</h3></thead>
+                    <thead><h3 id="event_head"></h3></thead>
                     <tbody id="event_body">
-                        <tr><h5>PhD Defense: Learning With Minimal Supervision: New Meta-Learning and Reinforcement Learning Algorithms</h5>
+                        <!-- <tr><h5>PhD Defense: Learning With Minimal Supervision: New Meta-Learning and Reinforcement Learning Algorithms</h5>
                             <p>13:30 to 15:30 <br /> Amr Sharaf </p>
-                        </tr>
+                        </tr> -->
                     </tbody>
                 </table>
             </div>
@@ -242,6 +243,16 @@
         function updateEvent(){
             let eventDay = document.getElementById("event_head");
             eventDay.innerHTML = "Events on " + months[today.getMonth()] + " " + today.getDate();
+            let eventList = document.getElementById("event_body");
+
+            switch(today.getDate()){
+                case 5:
+                    eventList.innerHTML = "<tr><h5>PhD Defense: Learning With Minimal Supervision: New Meta-Learning and Reinforcement Learning Algorithms</h5><p>13:30 to 15:30 <br /> Amr Sharaf </p></tr>"
+                    + "";
+                    break;
+                default:
+                    eventList.innerHTML = "<tr><br /><br /><br /><br /><h5><b>Social Distancing Reminder: </b>Please stay 6 feet apart from each other</h5><br /></tr>";
+            }
 
         }
         

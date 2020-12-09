@@ -11,7 +11,7 @@
 
         /* --------- THICK SCROLL BAR SECTION -------- */
 		::-webkit-scrollbar {
-            width: 30px;
+            width: 60px;
             border: 5px solid white;
 
         }
@@ -147,6 +147,14 @@
             padding: 20px 20px;
             text-align: center;
             background-color: #FFD520;
+            
+        }
+
+        .shortcuton {
+            position: relative;
+            padding: 20px 20px;
+            text-align: center;
+            background-color: #ffeea8;
             
         }
 
@@ -296,6 +304,21 @@
         h1 {
             margin: 10px
         }
+        td button {
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: #d95656;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+        td button:active {
+            background-color: #aa4343;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
     </style>
 </head>
 
@@ -319,7 +342,7 @@
     </div>
 
     <div class ="top3">
-        <button class="shortcut" onclick="window.location.href = './faculty_directory.html'" style="position:absolute">
+        <button class="shortcuton" onclick="window.location.href = './faculty_directory.html'" style="position:absolute">
             <img class="btnimg" src="images/search_shortcut.png" alt="" />
         </button>
     </div>
@@ -441,6 +464,7 @@
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Bhattacharjee, Bobby</td> <td class="d3"> <button onclick="selectOffice(5140)" style="font-size: 35px;">5140</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Bhattacharyya, Shuvra</td> <td class="d3"> <button onclick="selectOffice(3164)" style="font-size: 35px;">3164</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Bhattacherjee, Souvik</td> <td class="d3"> <button onclick="selectOffice(2254)" style="font-size: 35px;">2254</button> </td> </tr> </table> </a> </li>
+        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Blackwell, Tori</td> <td class="d3"> <button onclick="selectOffice(1138)" style="font-size: 35px;">1138</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Bjorgvinsson, Sigurthior</td> <td class="d3"> <button onclick="selectOffice(5124)" style="font-size: 35px;">5124</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Bobbin, Shawn</td> <td class="d3"> <button onclick="selectOffice(3146)" style="font-size: 35px;">3146</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Boyd-Graber, Jordan</td> <td class="d3"> <button onclick="selectOffice(4146)" style="font-size: 35px;">4146</button> </td> </tr> </table> </a> </li>
@@ -455,10 +479,10 @@
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Chen, Jun-Cheng</td> <td class="d3"> <button onclick="selectOffice(4222)" style="font-size: 35px;">4222</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Chen, Ray</td> <td class="d3"> <button onclick="selectOffice(5256)" style="font-size: 35px;">5256</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Cleaveland, Rance</td> <td class="d3"> <button onclick="selectOffice(5160)" style="font-size: 35px;">5160</button> </td> </tr> </table> </a> </li>
-        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Bravo, HÃ”Octor Corrada</td> <td class="d3"> <button onclick="selectOffice(3224)" style="font-size: 35px;">3224</button> </td> </tr> </table> </a> </li>
+        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Corrada Bravo, HÃ”Octor </td> <td class="d3"> <button onclick="selectOffice(3224)" style="font-size: 35px;">3224</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Cukier, Michel</td> <td class="d3"> <button onclick="selectOffice(2224)" style="font-size: 35px;">2224</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Cummings, Michael</td> <td class="d3"> <button onclick="selectOffice(3240)" style="font-size: 35px;">3240</button> </td> </tr> </table> </a> </li>
-        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Soled, Dana Dachman</td> <td class="d3"> <button onclick="selectOffice(5238)" style="font-size: 35px;">5238</button> </td> </tr> </table> </a> </li>
+        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Dachman Soled, Dana</td> <td class="d3"> <button onclick="selectOffice(5238)" style="font-size: 35px;">5238</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Daume, Hal</td> <td class="d3"> <button onclick="selectOffice(4148)" style="font-size: 35px;">4148</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Davis, Larry</td> <td class="d3"> <button onclick="selectOffice(4248)" style="font-size: 35px;">4248</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Dechter, Rina</td> <td class="d3"> <button onclick="selectOffice(2252)" style="font-size: 35px;">2252</button> </td> </tr> </table> </a> </li>
@@ -470,7 +494,7 @@
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Duraiswami, Ramani</td> <td class="d3"> <button onclick="selectOffice(4244)" style="font-size: 35px;">4244</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Duraiswami, Ramani</td> <td class="d3"> <button onclick="selectOffice(4245)" style="font-size: 35px;">4245</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Eastman, Roger</td> <td class="d3"> <button onclick="selectOffice(1126)" style="font-size: 35px;">1126</button> </td> </tr> </table> </a> </li>
-        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Sayed, Najib El</td> <td class="d3"> <button onclick="selectOffice(3246)" style="font-size: 35px;">3246</button> </td> </tr> </table> </a> </li>
+        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">El Sayed, Najib </td> <td class="d3"> <button onclick="selectOffice(3246)" style="font-size: 35px;">3246</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Elman, Howard</td> <td class="d3"> <button onclick="selectOffice(4210)" style="font-size: 35px;">4210</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Emad, Fawzi</td> <td class="d3"> <button onclick="selectOffice(2212)" style="font-size: 35px;">2212</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Endegena, Israel</td> <td class="d3"> <button onclick="selectOffice(5218)" style="font-size: 35px;">5218</button> </td> </tr> </table> </a> </li>
@@ -479,7 +503,7 @@
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">FernmÃ”Oller, Cornelia</td> <td class="d3"> <button onclick="selectOffice(4216)" style="font-size: 35px;">4216</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Filippou, Jason</td> <td class="d3"> <button onclick="selectOffice(2206)" style="font-size: 35px;">2206</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Findlay, Adelaide</td> <td class="d3"> <button onclick="selectOffice(2130)" style="font-size: 35px;">2130</button> </td> </tr> </table> </a> </li>
-        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Mathur, Richa</td> <td class="d3"> <button onclick="selectOffice(2132)" style="font-size: 35px;">2132</button> </td> </tr> </table> </a> </li>
+       
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Fitzgerald, Victoria</td> <td class="d3"> <button onclick="selectOffice(1154)" style="font-size: 35px;">1154</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Foster, Jeff</td> <td class="d3"> <button onclick="selectOffice(2162)" style="font-size: 35px;">2162</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Frias-Martinez, Vanessa</td> <td class="d3"> <button onclick="selectOffice(4144)" style="font-size: 35px;">4144</button> </td> </tr> </table> </a> </li>
@@ -531,6 +555,7 @@
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Mamat, Anwar</td> <td class="d3"> <button onclick="selectOffice(2244)" style="font-size: 35px;">2244</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Manocha, Dinesh</td> <td class="d3"> <button onclick="selectOffice(5164)" style="font-size: 35px;">5164</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Marsh, Mike</td> <td class="d3"> <button onclick="selectOffice(2222)" style="font-size: 35px;">2222</button> </td> </tr> </table> </a> </li>
+        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Mathur, Richa</td> <td class="d3"> <button onclick="selectOffice(2132)" style="font-size: 35px;">2132</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Mazurek, Michelle</td> <td class="d3"> <button onclick="selectOffice(5236)" style="font-size: 35px;">5236</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">McElroy, Sharron</td> <td class="d3"> <button onclick="selectOffice(2138)" style="font-size: 35px;">2138</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Meisel, Jackie</td> <td class="d3"> <button onclick="selectOffice(3228)" style="font-size: 35px;">3228</button> </td> </tr> </table> </a> </li>
@@ -555,7 +580,6 @@
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Pimpawathin, Apitchaya</td> <td class="d3"> <button onclick="selectOffice(1132)" style="font-size: 35px;">1132</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Plane, Jan</td> <td class="d3"> <button onclick="selectOffice(1254)" style="font-size: 35px;">1254</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Pop, Mihai</td> <td class="d3"> <button onclick="selectOffice(3134)" style="font-size: 35px;">3134</button> </td> </tr> </table> </a> </li>
-        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Pop, Mihai</td> <td class="d3"> <button onclick="selectOffice(3222)" style="font-size: 35px;">3222</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Porter, Adam</td> <td class="d3"> <button onclick="selectOffice(5212)" style="font-size: 35px;">5212</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Pugh, Bill</td> <td class="d3"> <button onclick="selectOffice(2164)" style="font-size: 35px;">2164</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Purcell, Dana</td> <td class="d3"> <button onclick="selectOffice(5234)" style="font-size: 35px;">5234</button> </td> </tr> </table> </a> </li>
@@ -575,6 +599,7 @@
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Sadeghian, Pedram</td> <td class="d3"> <button onclick="selectOffice(1214)" style="font-size: 35px;">1214</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Sadrfaridour, Behzad</td> <td class="d3"> <button onclick="selectOffice(4226)" style="font-size: 35px;">4226</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Samet, Hanan</td> <td class="d3"> <button onclick="selectOffice(4252)" style="font-size: 35px;">4252</button> </td> </tr> </table> </a> </li>
+        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Santhanam, Venkat</td> <td class="d3"> <button onclick="selectOffice(4224)" style="font-size: 35px;">4224</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Sazawal, Vibha</td> <td class="d3"> <button onclick="selectOffice(1252)" style="font-size: 35px;">1252</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Schenk, Arlene</td> <td class="d3"> <button onclick="selectOffice(3140)" style="font-size: 35px;">3140</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Segler, Lauren</td> <td class="d3"> <button onclick="selectOffice(1152)" style="font-size: 35px;">1152</button> </td> </tr> </table> </a> </li>
@@ -582,7 +607,7 @@
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Shankar, A. Udaya</td> <td class="d3"> <button onclick="selectOffice(5150)" style="font-size: 35px;">5150</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Shneiderman, Ben</td> <td class="d3"> <button onclick="selectOffice(2162)" style="font-size: 35px;">2162</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Shrivastava, Abhinav</td> <td class="d3"> <button onclick="selectOffice(4238)" style="font-size: 35px;">4238</button> </td> </tr> </table> </a> </li>
-        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Locke, Stacey Sickle</td> <td class="d3"> <button onclick="selectOffice(2124)" style="font-size: 35px;">2124</button> </td> </tr> </table> </a> </li>
+        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Sickle Locke, Stacey </td> <td class="d3"> <button onclick="selectOffice(2124)" style="font-size: 35px;">2124</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Smith, Richard</td> <td class="d3"> <button onclick="selectOffice(2154)" style="font-size: 35px;">2154</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Song, Yan</td> <td class="d3"> <button onclick="selectOffice(4220)" style="font-size: 35px;">4220</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Spring, Neil</td> <td class="d3"> <button onclick="selectOffice(5138)" style="font-size: 35px;">5138</button> </td> </tr> </table> </a> </li>
@@ -597,7 +622,6 @@
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">VanHorn, David</td> <td class="d3"> <button onclick="selectOffice(5250)" style="font-size: 35px;">5250</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Varshney, Amitabh</td> <td class="d3"> <button onclick="selectOffice(3107)" style="font-size: 35px;">3107</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Varshney, Amitabh</td> <td class="d3"> <button onclick="selectOffice(3212)" style="font-size: 35px;">3212</button> </td> </tr> </table> </a> </li>
-        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Santhanam, Venkat</td> <td class="d3"> <button onclick="selectOffice(4224)" style="font-size: 35px;">4224</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Ventsias, Tom</td> <td class="d3"> <button onclick="selectOffice(3128)" style="font-size: 35px;">3128</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Vishkin, Uzi</td> <td class="d3"> <button onclick="selectOffice(5216)" style="font-size: 35px;">5216</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Worden, Jeanine</td> <td class="d3"> <button onclick="selectOffice(2150)" style="font-size: 35px;">2150</button> </td> </tr> </table> </a> </li>
@@ -612,7 +636,6 @@
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Zotkin, Dmitry</td> <td class="d3"> <button onclick="selectOffice(4218)" style="font-size: 35px;">4218</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Zotkina, Elena</td> <td class="d3"> <button onclick="selectOffice(4138)" style="font-size: 35px;">4138</button> </td> </tr> </table> </a> </li>
         <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Zwicker, Matthias</td> <td class="d3"> <button onclick="selectOffice(4206)" style="font-size: 35px;">4206</button> </td> </tr> </table> </a> </li>
-        <li> <a href="#"> <table id ="faculty"> <tr> <td class="d1">Blackwell, Tori</td> <td class="d3"> <button onclick="selectOffice(1138)" style="font-size: 35px;">1138</button> </td> </tr> </table> </a> </li>
     </ul>
     <br>
 
@@ -621,7 +644,7 @@
     <script>
         var color = '';
         var button_style = document.getElementById("A").style;
-
+        
         function myFunction() {
             if (color != '') {
                 document.getElementById(color).style = button_style;
@@ -641,6 +664,25 @@
                     li[i].style.display = "none";
                 }
             }
+
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                var patt = /(.*), (.*) (\d\d\d\d)/i;
+                var result = txtValue.match(patt);
+                var name = result[2].trim() +" "+ result[1].trim()
+                var name2 = result[1].trim() +" "+ result[2].trim()
+                if (name.toUpperCase().indexOf(filter) > -1 || name2.toUpperCase().indexOf(filter) > -1 ) {
+                    li[i].style.display = "";
+
+                } else {
+                    li[i].style.display = "none";
+                }
+
+            }
+
+            
+            
         }
 
         function getLetter(_this, letter) {
